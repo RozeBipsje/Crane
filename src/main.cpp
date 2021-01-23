@@ -14,7 +14,6 @@ const int buttonPin2 = 4;     // the number of the pushbutton pin CCW
 int buttonState1 = 0;         // variable for reading the pushbutton status CW
 int buttonState2 = 0;         // variable for reading the pushbutton status CCW
 
- 
 void setup(){
  
     //Set pins as outputs
@@ -22,10 +21,7 @@ void setup(){
     pinMode(motorPin2, OUTPUT);
     pinMode(buttonPin1, INPUT); //CW
     pinMode(buttonPin2, INPUT); //CCW
-
-  
-}
-
+  }
 
 void loop(){
   // read the state of the pushbutton value:
