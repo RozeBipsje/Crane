@@ -15,8 +15,7 @@ int buttonState1 = 0;         // variable for reading the pushbutton status CW
 int buttonState2 = 0;         // variable for reading the pushbutton status CCW
 
 void setup(){
- 
-    //Set pins as outputs
+     //Set pins as outputs
     pinMode(motorPin1, OUTPUT);
     pinMode(motorPin2, OUTPUT);
     pinMode(buttonPin1, INPUT); //CW
